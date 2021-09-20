@@ -6,7 +6,7 @@ a.sort(reverse=True)
 f=0
 for i in range(n):
     if a[i]<1:
-        f=+1
+        f+=1
         break
     else: continue
 if f==0:
